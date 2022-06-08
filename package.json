@@ -1,0 +1,23 @@
+{
+  "name": "style-practice",
+  "version": "1.0.0",
+  "description": "style practice on 9 June 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubukawa/style-practice.git"
+  },
+  "keywords": [],
+  "author": "Taro Ubukawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubukawa/style-practice/issues"
+  },
+  "homepage": "https://github.com/ubukawa/style-practice#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

@@ -1,0 +1,5 @@
+ docker run -it --rm -v ${PWD}:/data -p 8080:8080 unvt/nanban
+ cd /data
+ 
+
+curl https://dev-geoportal.dfs.un.org/unvt/esriIF/UniteStreetMapVector/VectorTileServer/resources/styles/root.json

@@ -1,0 +1,20 @@
+version: 8
+name: test-simple
+metadata:
+  maputnik:renderer: mbgljs
+sources:
+  ne-test:
+    type: vector
+    tiles:
+      - https://ubukawa.github.io/vt-test/ne-test/{z}/{x}/{y}.pbf
+    minzoom: 0
+    maxzoom: 5
+sprite: https://ubukawa.github.io/vt-test/sprite/sprite
+glyphs: https://ubukawa.github.io/vt-test/font/{fontstack}/{range}.pbf
+layers:
+  - !!inc/file layers/background.yml
+  - !!inc/file layers/landmass.yml
+  - !!inc/file layers/coastline.yml
+  - !!inc/file layers/bndl.yml
+  - !!inc/file layers/popp.yml
+id: o8m1gme9z

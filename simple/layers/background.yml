@@ -1,0 +1,5 @@
+id: background
+type: background
+maxzoom: 8
+paint:
+  background-color: rgba(135, 188, 196, 1)

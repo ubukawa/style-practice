@@ -1,0 +1,7 @@
+id: bndl
+type: line
+source: ne-test
+source-layer: bndl
+maxzoom: 8
+paint:
+  line-color: rgba(138, 138, 138, 1)

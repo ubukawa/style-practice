@@ -1,0 +1,14 @@
+id: popp
+type: symbol
+source: ne-test
+source-layer: popp
+minzoom: 2
+maxzoom: 8
+layout:
+  text-font:
+    - sans
+  text-field: '{NAME}'
+  icon-image: national_capital
+  text-offset:
+    - 1
+    - 1

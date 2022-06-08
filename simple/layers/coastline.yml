@@ -1,0 +1,7 @@
+id: coastline
+type: line
+source: ne-test
+source-layer: coastl
+maxzoom: 8
+paint:
+  line-color: rgba(58, 0, 160, 1)
