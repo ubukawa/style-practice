@@ -1,0 +1,14 @@
+version: 8
+name: My Style
+sprite: https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/../sprites/sprite
+glyphs: https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/{fontstack}/{range}
+sources: 
+  esri:
+    type: vector
+    tiles:  # for our tool, make sure that you use tiles
+      - https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf
+layers: ## you can adde more layers here
+  - !!inc/file layers/background.yml
+  - !!inc/file layers/land-ice.yml
+#  - !!inc/file layers/land.yml
+#  - !!inc/file layers/land(ice).yml

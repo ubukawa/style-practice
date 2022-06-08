@@ -1,5 +1,10 @@
- docker run -it --rm -v ${PWD}:/data -p 8080:8080 unvt/nanban
+
  cd /data
  
+
+ ttp://localhost:8080/
+
+
+ https://www.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json?f=pjson
 
 curl https://dev-geoportal.dfs.un.org/unvt/esriIF/UniteStreetMapVector/VectorTileServer/resources/styles/root.json

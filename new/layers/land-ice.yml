@@ -1,0 +1,20 @@
+id: land-ice
+type: fill
+source: esri
+source-layer: Land
+filter: # filter is not needed..
+  - 'in'
+  - _symbol
+  - 1 #1 is ice 0 is non ice (See Green Land)
+  - 0
+maxzoom: 15
+paint:
+  fill-color:
+    - match
+    - - get
+      - _symbol
+    - 1
+    - '#FFFFFF'
+    - 0
+    - green
+    - '#999999' #1 nor 0
